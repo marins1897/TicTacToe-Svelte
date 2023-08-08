@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Slab');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background: #f3f3f3;
+}
+
+button {
+  font: inherit;
+  border:2px solid #4a0220;
+  background: #cf0056;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  margin: 0.25rem;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+button:hover,
+button:active {
+  background: #e40763;
+  border-color: #e40763;
+  box-shadow: 1px 1px 8px rgba(77, 51, 51, 0.26);
+}
